@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -130,6 +134,36 @@ nav ul li{
 
 main{
     height: 7em;
+}
+
+main .left-about{
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.right-about, .grid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.right-about, .grid, .grid-1, .grid-2{
+    width: 100%;
+}
+
+.grid-1, .grid-image{
+    border-radius: 20rem;
+    margin-left: 2em;
+}
+
+.grid-2{
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
+    margin:2em 0  0 7em;
+}
+
+.grid-2 p{
+    margin-bottom:1em;
 }
 
 
