@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:#fff;
+    font-size: 1em;
+    font-family: 'sniglet','oh-whale';
+    background-color: rgb(67,69,71);
+}
+
+.hero-image{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./alphacolor-r6RCPk1X91c-unsplash.jpg'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./pexels-cottonbro-4620862\ \(2\).jpg');
+    min-height: 70vh;
+    /* min-height: 100%; */
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* all links are white */
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+h1{
+    font-weight: 700;
+    margin: auto 0;
+    line-height: 1.2;
+}
+
+h2{
+    font-family: 'oh-whale';
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+/* all images must not be larger than parent container */
+img{
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* center container, set max-width and show element flow past it */
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.navbar{
+    background-color: none;
+    height:4em;
+    padding: 0 30px;
+}
+
+.navbar .flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-container{
+    
+}
+
+h1.logo, nav ul li{
+    position: relative;
+    top: .5em;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 3em;
+}
+
+.text{
+    text-align: center;
+    height:10em;
+    margin-top: 7em;
+    /* margin:auto 5em; */
+    /* position: relative; */
+    /* top: 10px; */
+}
+
+.text h2{
+    font-weight: 800;
+    text-transform: capitalize;
+    font-size: 3em;
+}
+
+.text h1{
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.text a{
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 400;
+    /* background-color: rgba(35, 17, 9, 0.836); */
+    background-color: rgba(22, 15, 10, 0.856);
+    padding:1em;
+    overflow: visible;
+}
+
+.text h2,.text h1{
+    padding-bottom:.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
