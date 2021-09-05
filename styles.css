@@ -18,7 +18,8 @@ body{
 .hero-image{
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./alphacolor-r6RCPk1X91c-unsplash.jpg'); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./pexels-cottonbro-4620862\ \(2\).jpg');
-    min-height: 70vh;
+    /* width: 100%; */
+    min-height: 100vh;
     /* min-height: 100%; */
     position: relative;
     background-position: center;
@@ -80,6 +81,7 @@ li{
 .navbar li a:hover{
     border-bottom:2px solid #fff;
     color: rgba(255, 255, 255, 0.527);
+    transition: border .5s ease-in-out;
 }
 
 .flex-container{
@@ -90,6 +92,10 @@ li{
 h1.logo, nav ul li{
     position: relative;
     top: .5em;
+}
+
+h1.logo a{
+    cursor: pointer;
 }
 
 nav ul li{
@@ -126,10 +132,15 @@ nav ul li{
     background-color: rgba(49, 33, 21, 0.856);
     padding:1em;
     overflow: visible;
+    margin-bottom: 3em;
 }
 
 .text h2,.text h1{
     padding-bottom:.5em;
+}
+
+.icons{
+    
 }
 
 main{
@@ -141,7 +152,7 @@ main,.left-about{
 }
 
 .left-about{
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     width: 100%;
 }
 
@@ -162,10 +173,13 @@ main,.left-about{
     margin-bottom: .9em;
 }
 
+.right-about{
+    width: 100%;
+}
 
 .right-about, .grid{
     display: grid;
-    grid-template-columns: 30% 50%;
+    grid-template-columns: 30% 60%;
 }
 
 .right-about, .grid, .grid-1, .grid-2{
