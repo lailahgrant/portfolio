@@ -123,7 +123,7 @@ nav ul li{
     font-size: 1em;
     font-weight: 400;
     /* background-color: rgba(35, 17, 9, 0.836); */
-    background-color: rgba(22, 15, 10, 0.856);
+    background-color: rgba(49, 33, 21, 0.856);
     padding:1em;
     overflow: visible;
 }
@@ -136,23 +136,54 @@ main{
     height: 7em;
 }
 
-main .left-about{
+main,.left-about{
+    
+}
+
+.left-about{
     flex-wrap: wrap;
     width: 100%;
 }
 
+.left-about .about-name{
+    font-weight: 500;
+    margin-bottom: .3em;
+}
+
+.left-about .about-desc{
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: .9em;
+}
+
+.left-about .about-info{
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: .9em;
+}
+
+
 .right-about, .grid{
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 30% 50%;
 }
 
 .right-about, .grid, .grid-1, .grid-2{
     width: 100%;
 }
 
-.grid-1, .grid-image{
-    border-radius: 20rem;
+.grid-1{
     margin-left: 2em;
+}
+
+.grid-image{
+    border-radius: 2em;
+    margin: 2em 0 0 2em;
+}
+
+.grid-image:hover{
+    box-shadow: 0 4px 8px 0 rgba(49, 33, 21, 0.856), 0 8px 20px 0 rgba(49, 33, 21, 0.856);
+    cursor: pointer;
 }
 
 .grid-2{
