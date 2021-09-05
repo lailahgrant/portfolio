@@ -21,6 +21,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-bottom: 3em;
 }
 
 /* all links are white */
@@ -68,8 +69,18 @@ li{
     align-items: center;
 }
 
+.navbar nav ul{
+    display: flex;
+}
+
+.navbar li a:hover{
+    border-bottom:2px solid #fff;
+    color: rgba(255, 255, 255, 0.527);
+}
+
 .flex-container{
-    
+    display: flex;
+    justify-content: space-between;
 }
 
 h1.logo, nav ul li{
@@ -116,6 +127,11 @@ nav ul li{
 .text h2,.text h1{
     padding-bottom:.5em;
 }
+
+main{
+    height: 7em;
+}
+
 
 
 
